@@ -40,6 +40,11 @@
     border-color: #003e7a; ;
 }
 
+#buttonBlock:hover {
+    background-color: #003e7a;
+    color: white;
+}
+
 button {
     background-color: #ffde74;
     border: none;
@@ -130,6 +135,33 @@ div.card .numberBox{
     top: 0;
 }
 
+.accordion-button {
+    width: 99%;
+    background-color: white;
+    color: #003e7a;
+    border-radius: 0px;
+}
+
+.accordion-button:hover {
+    background-color: #003e7a;
+    color: white;
+    border-radius: 0px;
+}
+
+.accordion-button.collapsed {
+    width: 99%;
+    border-radius: 0px;
+}
+
+button.accordion-button.collapsed {
+    margin: 0px;
+    border-radius: 0px;
+}
+
+button.accordion-button {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
 .colLeft {
     float: left;
 }
