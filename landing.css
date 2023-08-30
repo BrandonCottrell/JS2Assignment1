@@ -1,0 +1,217 @@
+.imageContainer {
+    height: 350px; 
+    background-image:url(https://www.wctc.edu/_site-images/foundation-students-in-lobby-h.jpg);
+    color: white;
+    text-align: left;
+    font-size: 56px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#currentPage {
+    color: black;
+}
+
+#successDiv{
+    padding-top: 50px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+#buttonBlock {
+    width: 95%;
+    margin: 25px;
+    padding: 25px;
+    background-color: white;
+    color: #003e7a;
+    border-radius: 0px;
+    font-size: x-large;
+    border-color: #003e7a; ;
+}
+
+button {
+    background-color: #ffde74;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    color: #003e7a;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #f3c11d;;
+}
+
+.nav-link {
+    color: #003e7a;;
+    font-weight: bold;
+}
+
+.nav-link-top {
+    color: white;
+}
+
+#topLink {
+    color: white;
+}
+
+.Career {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#mainHeader {
+    background-color: white;
+}
+
+#jobSearchContainer {
+    margin-top: 100px;
+}
+
+
+.col {
+    padding-top: 40px;
+    height: 200px;
+}
+
+#jobDiv {
+    height: 400px;
+}
+
+.card-body {
+    box-shadow: 0 0 5px #ccc;
+    padding: 35px 35px 35px 105px;
+    background: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+div.card .numberBox.color1 {
+    background: #1b76bc;
+}
+
+div.card .numberBox.color2 {
+    background: #00b6bd;
+}
+
+div.card .numberBox.color3 {
+    background: #ffde74;
+}
+
+div.card .numberBox.color4 {
+    background: #a5ce39;
+}
+
+div.card .numberBox{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.colLeft {
+    float: left;
+}
+
+.colRight {
+    flood-opacity: right;
+}
+
+.careerResources {
+    background-image: url(https://www.wctc.edu/_resources/images/NWS-Stripe-Texture.jpg);
+    height: 500px;
+}
+
+#moreCareer {
+    text-align: center;
+    padding-top: 50px;
+    color: #003e7a;
+}
+
+.moreResources {
+    color: #003e7a;
+}
+
+.col-sm {
+    padding-top: 50px;
+}
+
+.mccrButton {
+    background-color:#003e7a; 
+    color: white;
+}
+
+.mccrButton:hover {
+    background-color:#0077bf; 
+    color: white;
+}
+
+.icon-wrapper.icon-bg-yellow {
+    background: #ffde74;
+}
+
+.icon-wrapper.icon-bg-blue {
+    background: #2d76bb;
+}
+
+.icon-wrapper.icon-bg-teal {
+    background: #31b6bd;
+}
+
+.icon-wrapper.icon-bg-dark-blue {
+    background: #003e7a;
+}
+
+.icon-wrapper {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+footer {
+    background-image: url(https://www.wctc.edu/_resources/images/footer_bg.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#footerDiv {
+    height: 450px;
+    color: white;
+}
+
+.footerButton {
+    margin: 10px;
+    color: white;
+    background-color: transparent;
+    border: solid white 1px;
+    width: 60%;
+    padding: 15px 30px;
+}
