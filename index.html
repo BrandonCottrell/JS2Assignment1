@@ -8,25 +8,72 @@
     <title>Javascript 2 Assignment 1</title>
 </head>
 <body>
-        <ul class="first nav nav-pills" style="background-color: #003e7a; justify-content: right;">
-            <li class="first-nav-item"><a href="#" class="nav-link" id="topLink">MyWCTC</a></li>
-            <li class="first-nav-item"><a href="#" class="nav-link" id="topLink">Student Rescources</a></li>
-            <li class="first-nav-item"><a href="#" class="nav-link" id="topLink">Alumni</a></li>
-          </ul>
-    
+    <div style="background-color: #003e7a;">
+        <div class="container">
+            <ul class="first nav nav-pills" style="background-color: #003e7a; justify-content: right;">
+                <li class="first-nav-item"><a href="#" class="nav-link" id="topLink">MyWCTC</a></li>
+                <li class="first-nav-item"><a href="#" class="nav-link" id="topLink">Student Rescources</a></li>
+                <li class="first-nav-item"><a href="#" class="nav-link" id="topLink">Alumni</a></li>
+              </ul>
+        </div>
+    </div>
+
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" id="mainHeader">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
             <img src="https://www.wctc.edu/_resources/images/waukesha_logo.svg" height="50px">
           </a>
-
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link">ACADEMICS</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">ADMISSIONS</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">CAMPUS LIFE</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">COMMUNITY</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">ABOUT</a></li>
+            <!-- <li class="nav-item" id="navButton"><a href="#" class="nav-link"><button class="nav-button">ACADEMICS</button></a></li> -->
+            <div class="dropdown">
+                <button class="dropbtn">ACADEMICS</button>
+                <div class="dropdown-content">
+                  <a href="#">Academic Programs</a>
+                  <a href="#">Academic Calendar</a>
+                  <a href="#">Courses, Training & Continuing Education</a>
+                  <a href="#">Graduation</a>
+                  <a href="#">Request a WCTC Transcript</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">ADMISSIONS</button>
+                <div class="dropdown-content">
+                  <a href="#">Apply to WCTC</a>
+                  <a href="#">Visit WCTC</a>
+                  <a href="#">Register for Courses</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">CAMPUS LIFE</button>
+                <div class="dropdown-content">
+                  <a href="#">Events Caldendar</a>
+                  <a href="#">Bookstore</a>
+                  <a href="#">Library</a>
+                  <a href="#">Career Connections</a>
+                  <a href="#">Dining</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">COMMUNITY</button>
+                <div class="dropdown-content">
+                  <a href="#">Courses, Training & Continuing Education</a>
+                  <a href="#">Business Resources</a>
+                  <a href="#">Student-Provided Services</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">ABOUT</button>
+                <div class="dropdown-content">
+                  <a href="#">Leadership</a>
+                  <a href="#">WCTC Foundation</a>
+                  <a href="#">Accreditation</a>
+                </div>
+              </div>
+            <!-- <li class="nav-item" id="navButton"><a href="#" class="nav-link"><button class="nav-button">ADMISSIONS</button></a></li>
+            <li class="nav-item" id="navButton"><a href="#" class="nav-link"><button class="nav-button">CAMPUS LIFE</button></a></li>
+            <li class="nav-item" id="navButton"><a href="#" class="nav-link"><button class="nav-button">COMMUNITY</button></a></li>
+            <li class="nav-item" id="navButton"><a href="#" class="nav-link"><button class="nav-button">ABOUT</button></a></li> -->
           </ul>
         </header>
     </div>
